@@ -10,7 +10,8 @@
 
    <context:annotation-config/>
    
-	<bean id="sb" class="SampleBean"/>
-	<bean id="id2" class="DemoBean"/>
+	<bean id="id1" class="UserBean">
+		<property name="name" value="Chanti"/>
+	</bean>
 
 </beans>
